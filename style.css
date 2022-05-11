@@ -1,0 +1,294 @@
+*{
+  margin: 0;
+  padding: 1/2 rem;
+  width: auto;  
+}
+.header{
+  padding: 1em;
+
+}
+ h1{
+margin-top:5em; 
+display: flex;
+justify-content: center;
+align-items: center;
+ text-shadow: 0.1rem 0.2rem 0.2rem rgba(255, 43, 6, 0.3 );
+ font-size: 3em;
+ font-family: 'Roboto Serif', serif;
+font-family: 'Shizuru', cursive;
+font-family: 'Titillium Web', sans-serif;
+color:#540b0e;
+opacity: 0.7 ;
+letter-spacing: 0.5rem;
+transition-duration: 2s;
+}
+
+ h1:hover{
+  transition-delay: 0.5s;
+   transition-duration: 2s;
+  transform: translateY(-50px);
+    border: 2px solid rgba(255, 255, 255, .5);
+  border-radius: 50% 0% 50% 0%;
+  cursor: pointer;
+  font-size: 3em;
+  text-shadow:1em 0.8em 1em rgba(255, 0, 0, 0.8);
+  margin: 1em;
+  padding: 1em;
+  color:rgb(255, 98, 0);
+  opacity: 0.8; 
+}
+.gif{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.gif img{
+  margin: 2.5rem;
+  height: 60vh;
+  width: 80vh;
+  box-shadow: 0em 1.2rem 2em rgba(0, 0, 0, 0.3); 
+}
+
+.nav-bar{
+ margin: 1em;
+}
+.nav-bar ul{
+   font-size: 1.2em;
+  list-style-type: none;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+ 
+} 
+.nav-bar li{
+  margin: 4rem; 
+}
+.nav-bar li a{
+  text-decoration: none;
+  color: #ffff;
+  padding: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10%;
+  background-color: rgba(0, 0, 0, 1);
+  font-size: 1.8rem;
+  font-weight: 400;
+  transition-duration: 1.2s;
+}
+
+.nav-bar a:hover{
+  background-color: rgba(207, 10, 10,0.5);
+  transition-duration:0.9s;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgba(0,0,0,0.5);
+   border-radius: 15%;
+}
+
+.image{ 
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0 1em 1em rgba(255, 255, 255, 0.5), inset 0 1em 1em rgba(255, 255, 255, 0.5);  
+}
+.headings h1{
+display: flex;
+justify-content: center;
+align-items: center;
+ text-shadow: 0.1rem 0.2rem 0.2rem rgba(131, 238, 16, 0.5);
+ font-size: 2.5em;
+width:auto;
+font-family: 'Roboto Serif', serif;
+font-family: 'Shizuru', cursive;
+font-family: 'Titillium Web', sans-serif;
+color:#540b0e;
+opacity: 0.7 ;
+border-bottom: 1px solid #f77f0045;
+}
+.image img{
+  width: 150px;
+  height: 150px;
+  margin: 1.5rem;
+  padding: 1.5rem;
+  opacity: 0.9;
+  transition-duration: 1.2s;
+  animation: rotate 300ms ease-in 600ms forwards;
+} 
+
+.image img:hover{
+  background-color: rgba(207, 10, 10,0.3);
+  transition-duration:1.2s;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgba(0,0,0,0.5);
+  margin: 10px;
+  border-radius: 10%;
+}
+.main-first{
+ display: flex;
+ flex-wrap: nowrap;
+  width:90%;
+  margin:1rem;  
+  padding: 1rem;
+  justify-content: center;
+  justify-items: cetner;
+}
+.main-first img{
+   width: 85%;
+  height: 80%;
+  opacity: 0.7;
+  border-radius: 50%;
+  box-shadow:  0.2em 0.8em 1.2em rgba(0, 0, 0, 0.5);
+  transition-duration: 2s;
+  animation: simple-load 500ms ease-in 600ms;
+  animation-fill-mode: forwards;
+  transform: translateX(0);
+  margin-left:4rem;
+}
+.main-first img:hover{
+  transition-duration: 2s;
+ box-shadow: 1.5rem 1rem 1.5rem rgba(0, 0, 0, 0.3);
+}
+.intro{
+  font-size:2em;
+  color:#f77f00;
+  font-family: 'Roboto Serif', serif;
+  font-family: 'Shizuru', cursive;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+ text-shadow: 0.2rem 0.2rem 0.2rem rgba(243, 138, 0, 0.5);
+  letter-spacing: 0.1rem;
+  padding-right:100%;
+  width: 50%;
+ background-repeat: no-repeat;
+}
+
+.introduction p{
+  margin:1.2rem;
+   font-size:2rem;
+   font-family: 'Roboto Serif', serif;
+font-family: 'Shizuru', cursive;
+font-family: 'Titillium Web', sans-serif;
+word-spacing: 0.2rem;
+font-weight: 500;
+color:#f77f00;
+animation: simple-load-1 500ms ease-in 600ms;
+animation-fill-mode: forwards;
+background-color: rgba(250, 235, 215,0.3);
+padding:5rem;
+box-shadow: 0.2rem 0.5rem 0.7rem rgba(0, 0, 0, 0.2);
+}
+#about{
+  width:100%;
+  background-color: rgba(0, 0, 0,0.01);
+  height: 100vh;
+}
+ h1{
+  display: flex;
+  flex-wrap: no-wrap;
+  margin:1rem;  
+   padding: 1rem;
+   justify-content: center;
+   justify-items: cetner;
+}
+
+.cards{
+  display: flex;  
+  margin:1rem 5em 3rem 5rem;
+  padding: 1rem;
+  justify-content: center;
+  
+}
+.card1{
+  background-color: rgba(250, 235, 215,0.3);
+  box-shadow: 0.2rem 0.5rem 0.7rem rgba(0, 0, 0, 0.2);
+  width: 50%;
+}
+.card2{
+  margin-left:1rem; 
+  background-color: rgba(250, 235, 215,0.3);
+  box-shadow: 0.2rem 0.5rem 0.7rem rgba(0, 0, 0, 0.2);
+  width: 50%;
+}
+.cards img{
+  width:120px;
+  height: 100px;
+margin-left:40%;
+padding:1rem;
+}
+.cards p{
+  margin:1.2rem;
+  font-size:2rem;
+  font-family: 'Roboto Serif', serif;
+font-family: 'Shizuru', cursive;
+font-family: 'Titillium Web', sans-serif;
+word-spacing: 0.2rem;
+font-weight: 500;
+color:#f77f00;
+animation: simple-load-1 500ms ease-in 600ms;
+animation-fill-mode: forwards;padding:5rem;}
+
+.main-footer img{
+  width: 35px;
+  height: 35px;
+  margin:35px;
+  border-radius: 50%;
+  transition-duration: 1.5s;
+}
+.main-footer img:hover{
+  border:1/2px solid rgba(255, 0, 0, 0.5);
+  transition-duration: 1.5s;
+  transform: rotate(25deg);
+  box-shadow: 0.5em 0.5em 0.5em rgba(0,0,0,.5);
+}
+.main-footer {
+  margin:0;
+  padding: 20px;
+  height: 10vh;
+  background-color: rgba(231, 231, 20,0.3);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  box-shadow: inset 0.2em 1em 3em rgba(0, 0, 0, 0.2);
+} 
+
+@keyframes simple-load-1 {
+  0%{
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  80%{
+    transform: translateX(-250px);
+  }
+  100%{
+   transform: translateX(0);
+   opacity: 1;
+  }
+}
+@keyframes simple-load {
+  0%{
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  80%{
+    transform: translateX(-250px);
+    opacity: 0.5;
+  }
+  100%{
+   transform: translateX(0);
+   opacity: 1;
+  }
+}
+
+@keyframes rotate
+ {
+  0%{
+    transform: rotate(360deg);
+    opacity: 0;
+  }
+  100%{
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+
+ }
+  
